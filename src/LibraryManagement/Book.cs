@@ -1,4 +1,4 @@
-namespace LibraryManagement
+﻿namespace LibraryManagement
 {
     public class Book
     {
@@ -9,12 +9,13 @@ namespace LibraryManagement
         public string Category { get; set; }
         public Guid? ReaderId { get; set; }
 
-        public Book(string name, string description, string author)
+        public Book(string name, string author, string description, string category)
         {
             Id = Guid.NewGuid();
             Name = name;
-            Description = description;
             Author = author;
+            Description = description;
+            Category = category;
         }
 
         public override string ToString()
