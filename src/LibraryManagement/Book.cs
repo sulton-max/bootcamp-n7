@@ -1,4 +1,4 @@
-﻿namespace LibraryManagement
+namespace LibraryManagement
 {
     public class Book
     {
@@ -15,6 +15,15 @@
             Name = name;
             Description = description;
             Author = author;
+        }
+
+        public override string ToString()
+        {
+            return $"Kitob" +
+                $"\n id : {Id}, " +
+                $"\n nomi : {Name}, " +
+                $"\n muallifi : {Author}" +
+                $"\n kim o'qiyapti : {ReaderId}\n";
         }
     }
 }

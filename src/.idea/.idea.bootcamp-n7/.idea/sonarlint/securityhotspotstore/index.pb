@@ -11,7 +11,7 @@ Y
 )LoopingHomeTask/Assets/NumberGenerator.cs,8\0\802ce78bd9d5b9c198e2ae5dda78b5888c6088c2
 `
 0LoopingHomeTask/Assets/RockPaperScissorEngine.cs,d\1\d1fd845417534f547ad4a6a2ff1e6418545e26a8
-K
-LoopingHomeTask/HomeTask.cs,b\6\b6c5dad396c286b8064852dbd28ebc81f0de8406
 U
 %LoopingHomeTask.Unit/HomeTaskTests.cs,f\7\f7168a590683aa5dc860a26e42ac548324ad9a33
+K
+LoopingHomeTask/HomeTask.cs,b\6\b6c5dad396c286b8064852dbd28ebc81f0de8406
