@@ -1,6 +1,6 @@
 ﻿namespace LibraryManagement
 {
-    public class LibraryManagementCore
+    public abstract class LibraryManagementCore
     {
         public LibraryStore Store { get; set; }
 
@@ -14,7 +14,7 @@
             Store = new LibraryStore(books, users);
         }
 
-        public void DisplayAllUsers()
+        public virtual void DisplayAllUsers()
         {
             foreach (var user in Store.Users)
                 Console.WriteLine(user.ToString());
