@@ -13,9 +13,10 @@
 //    var command = Console.ReadLine();
 //}
 
-using LibraryManagement;
+using Library;
 
-var libraryManagement = new LibraryManagementCore(DataSource.Books, DataSource.Users);
+var libraryManagement = new LibraryManagement();
+libraryManagement.RegisterUser("Sultonbek", "Rakhimov", "sultonbek.rakhimov@gmail.com");
 
-libraryManagement.DisplayAllBooks();
-libraryManagement.DisplayAllUsers();
+
+

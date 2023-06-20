@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-namespace LibraryManagement;
+namespace Library;
 
 public static class DataSource
 {

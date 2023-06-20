@@ -1,4 +1,4 @@
-﻿namespace LibraryManagement
+﻿namespace Library
 {
     public class Book
     {

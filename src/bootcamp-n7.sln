@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "n3-oop-recap", "n3-oop-recap", "{3DAAA64C-A495-40E4-BD8F-5FD1F9947E41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagement", "LibraryManagement\LibraryManagement.csproj", "{2BED6E99-BE38-4953-BD6C-3BB21C439CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "LibraryManagement\Library.csproj", "{2BED6E99-BE38-4953-BD6C-3BB21C439CBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
