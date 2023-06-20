@@ -1,13 +1,13 @@
 ﻿using System.Xml.Linq;
 
-namespace LibraryManagement
+namespace Library
 {
     public class User
     {
         public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string UserName { get; set; }
+        public string Email { get; set; }
 
         public User(string firstName, string lastName)
         {
@@ -18,7 +18,7 @@ namespace LibraryManagement
 
         public User(string firstName, string lastName, string userName) : this(firstName, lastName)
         {
-            UserName = userName;
+            Email = userName;
         }
 
         public override string ToString()
@@ -27,7 +27,7 @@ namespace LibraryManagement
             $"\n id : {Id}, " +
                 $"\n ismi : {FirstName}, " +
                 $"\n familyasi : {LastName}" +
-                $"\n sharifi : {UserName}\n";
+                $"\n sharifi : {Email}\n";
         }
     }
 }
